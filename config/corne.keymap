@@ -160,19 +160,19 @@
 
         nav {
             bindings = <
-&none  &none     &none     &none      &none      &none     &none         &none           &hmr PG_UP UP        &none           &none  &none
-&none  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans    &none         &hmr HOME LEFT  &hmr PAGE_DOWN DOWN  &hmr END RIGHT  &none  &none
-&none  &none     &none     &none      &none      &none     &kp K_SELECT  &kp K_CUT       &kp K_COPY           &kp K_PASTE     &none  &none
-                           &trans     &trans     &trans    &trans        &kp K_UNDO      &kp K_REDO
+&trans  &none     &none     &none      &none      &none     &none         &none           &hmr PG_UP UP        &none           &none  &none
+&none   &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans    &none         &hmr HOME LEFT  &hmr PAGE_DOWN DOWN  &hmr END RIGHT  &none  &none
+&none   &none     &none     &none      &none      &none     &kp K_SELECT  &kp K_CUT       &kp K_COPY           &kp K_PASTE     &none  &none
+                            &trans     &trans     &trans    &trans        &kp K_UNDO      &kp K_REDO
             >;
         };
 
         sym {
             bindings = <
-&none  &kp PERCENT  &kp N7  &kp N8   &kp N9  &kp PLUS     &kp ASTERISK          &kp QUESTION                             &kp EXCLAMATION              &kp AMPERSAND                    &kp PIPE                     &none
-&none  &kp DOLLAR   &kp N4  &kp N5   &kp N6  &kp EQUAL    &hmr SLASH BACKSLASH  &hmr RIGHT_PARENTHESIS LEFT_PARENTHESIS  &hmr RIGHT_BRACE LEFT_BRACE  &hmr RIGHT_BRACKET LEFT_BRACKET  &hmr GREATER_THAN LESS_THAN  &kp AT_SIGN
-&none  &none        &kp N1  &kp N2   &kp N3  &kp MINUS    &kp UNDERSCORE        &hmr SINGLE_QUOTE DOUBLE_QUOTES          &kp GRAVE                    &kp CARET                        &none                        &none
-                            &kp DOT  &kp N0  &trans       &trans                &kp K_UNDO                               &kp K_REDO
+&trans  &kp PERCENT  &kp N7  &kp N8   &kp N9  &kp PLUS     &kp ASTERISK          &kp QUESTION                             &kp EXCLAMATION              &kp AMPERSAND                    &kp PIPE                     &none
+&none   &kp DOLLAR   &kp N4  &kp N5   &kp N6  &kp EQUAL    &hmr SLASH BACKSLASH  &hmr RIGHT_PARENTHESIS LEFT_PARENTHESIS  &hmr RIGHT_BRACE LEFT_BRACE  &hmr RIGHT_BRACKET LEFT_BRACKET  &hmr GREATER_THAN LESS_THAN  &kp AT_SIGN
+&none   &none        &kp N1  &kp N2   &kp N3  &kp MINUS    &kp UNDERSCORE        &hmr SINGLE_QUOTE DOUBLE_QUOTES          &kp GRAVE                    &kp CARET                        &none                        &none
+                             &kp DOT  &kp N0  &trans       &trans                &kp K_UNDO                               &kp K_REDO
             >;
         };
 
