@@ -151,37 +151,28 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp ESCAPE  &kp Q            &kp W            &kp F                &kp P              &kp B          &kp J         &kp L               &kp U                 &kp Y             &kp SEMICOLON     &none
-&none       &hml LEFT_GUI A  &hml LEFT_ALT R  &hml LEFT_CONTROL S  &hml LEFT_SHIFT T  &kp G          &kp M         &hmr RIGHT_SHIFT N  &hmr RIGHT_CONTROL E  &hmr RIGHT_ALT I  &hmr RIGHT_GUI O  &kp SINGLE_QUOTE
-&none       &kp Z            &kp X            &kp C                &kp D              &kp V          &kp K         &kp H               &kp COMMA             &kp DOT           &kp SLASH         &none
-                                              &none                &kp TAB            &lt 1 SPACE    &lt 2 RETURN  &kp BACKSPACE       &kp DELETE
+&kp ESCAPE  &kp Q  &kp C                &kp O                &kp P                &kp W              &kp J        &kp M             &kp D                 &kp EXCLAMATION       &kp Y  &none
+&none       &kp A  &hml LEFT_COMMAND S  &hml LEFT_CONTROL E  &hml LEFT_ALT N      &kp F              &kp L        &hmr RIGHT_ALT R  &hmr RIGHT_CONTROL T  &hmr RIGHT_COMMAND I  &kp I  &none
+&none       &kp Z  &kp X                &kp QUESTION         &kp V                &kp B              &kp DOT      &kp H             &kp G                 &kp COMMA             &kp K  &none
+                                        &none                &hml TAB LEFT_SHIFT  &lt 1 BACKSPACE    &lt 1 SPACE  &lt 2 RETURN      &none
             >;
         };
 
         nav {
             bindings = <
-&none  &none     &none     &none      &none      &none     &none         &none           &hmr PG_UP UP        &none           &none  &none
-&none  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans    &none         &hmr HOME LEFT  &hmr PAGE_DOWN DOWN  &hmr END RIGHT  &none  &none
-&none  &none     &none     &none      &none      &none     &kp K_SELECT  &kp K_CUT       &kp K_COPY           &kp K_PASTE     &none  &none
-                           &trans     &trans     &trans    &trans        &kp K_UNDO      &kp K_REDO
+&none  &kp TAB   &kp HOME           &kp UP      &kp END          &kp PG_UP      &kp FSLH   &kp N7  &kp N8  &kp N9  &none    &none
+&none  &kp CAPS  &kp LEFT           &kp DOWN    &kp RIGHT        &kp PG_DN      &kp MINUS  &kp N4  &kp N5  &kp N6  &kp N0   &none
+&none  &none     &kp C_VOLUME_DOWN  &kp K_MUTE  &kp C_VOLUME_UP  &kp LS(TAB)    &kp COMMA  &kp N1  &kp N2  &kp N3  &kp DOT  &none
+                                    &trans      &trans           &trans         &trans     &trans  &trans
             >;
         };
 
-        sym {
+        AltGr {
             bindings = <
-&none  &kp PERCENT  &kp N7  &kp N8   &kp N9  &kp PLUS     &kp ASTERISK          &kp QUESTION                             &kp EXCLAMATION              &kp AMPERSAND                    &kp PIPE                     &none
-&none  &kp DOLLAR   &kp N4  &kp N5   &kp N6  &kp EQUAL    &hmr SLASH BACKSLASH  &hmr RIGHT_PARENTHESIS LEFT_PARENTHESIS  &hmr RIGHT_BRACE LEFT_BRACE  &hmr RIGHT_BRACKET LEFT_BRACKET  &hmr GREATER_THAN LESS_THAN  &kp AT_SIGN
-&none  &none        &kp N1  &kp N2   &kp N3  &kp MINUS    &kp UNDERSCORE        &hmr SINGLE_QUOTE DOUBLE_QUOTES          &kp GRAVE                    &kp CARET                        &none                        &none
-                            &kp DOT  &kp N0  &trans       &trans                &kp K_UNDO                               &kp K_REDO
-            >;
-        };
-
-        autoshift {
-            bindings = <
-&trans  &as Q  &as W  &as F   &as P   &as B     &as J   &as L   &as U   &as Y   &trans  &trans
-&trans  &as A  &as R  &as S   &as T   &as G     &as M   &as N   &as E   &as I   &as O   &trans
-&trans  &as Z  &as X  &as C   &as D   &as V     &as K   &as H   &trans  &trans  &trans  &trans
-                      &trans  &trans  &trans    &trans  &trans  &trans
+&none  &kp CARET  &kp LT    &kp GREATER_THAN  &kp DLLR   &kp PERCENT    &kp AT    &kp AMPS  &kp STAR   &kp SQT    &kp GRAVE     &none
+&none  &kp LBRC   &kp LPAR  &kp RPAR          &kp RBRC   &kp EQUAL      &kp BSLH  &kp PLUS  &kp MINUS  &kp FSLH   &kp DQT       &none
+&none  &kp TILDE  &kp LBKT  &kp RBKT          &kp UNDER  &kp POUND      &kp PIPE  &kp EXCL  &kp SEMI   &kp COLON  &kp QUESTION  &none
+                            &trans            &trans     &trans         &trans    &trans    &trans
             >;
         };
     };
